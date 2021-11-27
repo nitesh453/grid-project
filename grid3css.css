@@ -1,0 +1,36 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+.container{
+
+  width: 100%;
+  height: 500px;
+  grid-template-columns: repeat(3,300px);
+  grid-template-rows: repeat(2,200px);
+  display: grid;
+  justify-content: space-evenly;
+  border: 1px solid darkgray;
+}
+
+.one img{
+  width: 300px;
+  position: relative;
+
+}
+.one h1{
+  position: absolute;
+
+  top: -5px;
+  color: red;
+}
+.two img{
+  width: 300px;
+  position: relative;
+
+}
+.three img{
+  width: 300px;
+  position: relative;
+
+}

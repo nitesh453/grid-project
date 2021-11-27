@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <title>grid wesite</title>
+    <style>
+      *{
+        margin :0px;
+        padding :0px;
+        box-sizing:border-box;
+      }
+      .container{
+     width: 100%;
+     display: grid;
+     margin-top: 50px;
+     margin-left: 65px;
+
+     grid-template-columns: repeat(4, 250px);
+     grid-template-rows: repeat(2, 150px);
+       grid-gap: 70px;
+       z-index: 1;
+   }
+      .boc_in{
+        background-color: purple;
+        border-radius: 15px;
+        position: relative;
+      }
+      .in_text{
+        position:absolute;
+        top:155px;
+        left:20px;
+        width:170px;
+        height:20px;
+        border: 2px solid black;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="boc_in">
+        <div class="in_text">
+
+        </div></div>
+
+      <div class="boc_in"><div class="in_text">
+
+      </div> </div>
+      <div class="boc_in"> <div class="in_text">
+
+      </div></div>
+      <div class="boc_in"> <div class="in_text">
+
+      </div></div>
+      <div class="boc_in"> <div class="in_text">
+
+      </div></div>
+      <div class="boc_in"> <div class="in_text">
+
+      </div></div>
+      <div class="boc_in"> <div class="in_text">
+
+      </div></div>
+      <div class="boc_in"> <div class="in_text">
+
+      </div></div>
+
+    </div>
+
+  </body>
+</html>
